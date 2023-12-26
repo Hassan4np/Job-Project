@@ -281,7 +281,8 @@
                     font-weight: 400;
                     line-height: 170%;
                     /* 30.6px */
-                    letter-spacing: 0.54px
+                    letter-spacing: 0.;
+                    color: #E8E8E8;
                 }
                 
                 .section5 .inputsection {
@@ -328,12 +329,11 @@
                     padding: 5px 22px;
                     border-radius: 10px;
                 }
-                
-                .section5 p {
+                /* .section5 p {
                     font-size: 14px;
                     font-weight: 700;
                     color: gray;
-                }
+                } */
                 
                 .section5 button {
                     background-color: #ebdbe7;
@@ -483,5 +483,11 @@
                     .section2 .copyimg img {
                         width: 10;
                         right: 0px;
+                    }
+                    .section3 .bananr2img {
+                        height: 40px;
+                        max-width: 312px;
+                        margin-left: 0px;
+                        margin: auto;
                     }
                 }
