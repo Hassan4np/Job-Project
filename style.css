@@ -493,22 +493,18 @@
             margin-left: 20px;
         }
         .section2 h5 {
-            width: 100%;
-            font-size: 14px;
+            width: 80%;
+            font-size: 8px;
         }
         .section2 .bannarimg {
-            height: 400px;
-            width: 380px;
+            height: 380px;
+            width: 340px;
             margin-top: 5px;
             margin-left: -20px;
         }
-        .section2 .copyimg img {
-            width: 10;
-            right: 0px;
-        }
         .section3 .bananr2img {
             height: 400px;
-            width: 400px;
+            width: 360px;
         }
         .section3 h1 {
             font-size: 40px;
@@ -523,9 +519,7 @@
             font-size: 14px;
             padding: 10px 25px;
         }
-        .section4 .card {
-            margin-left: 20px;
-        }
+        .section4 .card {}
         .section .section5 {
             margin-left: 50px;
         }
@@ -535,15 +529,32 @@
         .section6 h1 {
             font-size: 40px;
         }
-        .section6 .card {
-            margin-left: 20px;
+        .footer .pic {
+            width: 80px;
+            height: 80px;
         }
+        .footer .div2,
+        .footer .div2,
+        .footer .div3 {
+            width: 80px;
+            height: 80px;
+        }
+        .footer {
+            margin-top: 80px;
+        }
+        .footer .lestdiv {
+            margin-right: 0px;
+        }
+        /* .section6 .card {
+            margin-left: 20px;
+        } */
         /* .footer {
             margin-top: 80px;
             background-color: #D91CAE;
             margin-left: 20px;
             width: 100%;
         }
+        
         .footer .div2,
         .footer .div3 {
             width: 80px;
