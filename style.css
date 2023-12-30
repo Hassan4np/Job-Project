@@ -538,6 +538,17 @@
     /* ------------------------------------*/
     
     @media all and (max-width: 767px) {
+        .section1 .buy-now-button {
+            font-size: 14px;
+            padding: 10px 18px;
+            border-radius: 5px;
+        }
+        .section1 .navbar-toggler {
+            padding-top: 10px;
+            padding-left: 10px;
+            width: 50px;
+            height: 45px;
+        }
         .section2 h1 {
             font-size: 75px;
         }
@@ -574,11 +585,20 @@
             font-size: 14px;
             padding: 10px 25px;
         }
-        .section .section5 {
-            margin-left: 50px;
+        .section4 {
+            margin-left: 10px;
+        }
+        .section5 {
+            margin-left: 10px;
+        }
+        .section5 .inputsection {
+            margin-left: 5px;
         }
         .section5 h1 {
             font-size: 40px;
+        }
+        .section6 .card {
+            margin-left: -50px;
         }
         .section6 h1 {
             font-size: 40px;
@@ -589,8 +609,8 @@
         .footer .lestdiv {
             margin-right: 0px;
         }
-        .section6 .card {
-            margin-left: 30px;
+        .section6 .row {
+            margin-left: 45px;
         }
         .footer {
             margin-top: 80px;
@@ -605,7 +625,10 @@
             height: 80px;
         }
         .footer .lestdiv {
-            margin-left: 1px;
+            margin-right: -30px;
+        }
+        .footer .firstdiv {
+            margin-left: -30px;
         }
         .footer .d-flex {
             height: 100px;
