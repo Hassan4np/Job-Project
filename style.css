@@ -7,11 +7,6 @@
     body {
         background-color: #21071B;
     }
-    /* navbar section----------------->*/
-    
-    .header {
-        width: 1520px;
-    }
     
     .mainnavber img {
         height: 54px;
@@ -43,7 +38,7 @@
         color: #D91CAE;
     }
     
-    .section1 .navbar {
+    .section1 {
         height: 94px;
         padding-top: 20px;
         padding-bottom: 20px;
@@ -102,6 +97,8 @@
     .section2 {
         margin-top: 94px;
     }
+    
+    .section2 .text-end {}
     
     .section2 .bannarimg {
         height: 550px;
@@ -348,6 +345,7 @@
         border: 10px solid #D91CAE;
         background: white;
         border-radius: 10px;
+        margin-left: 70px;
     }
     
     .section5 .setting {
@@ -422,6 +420,10 @@
         margin-bottom: 60px;
     }
     
+    .section6 .position-relative {
+        z-index: auto;
+    }
+    
     .section6 .circle {
         width: 66px;
         height: 66px;
@@ -437,7 +439,7 @@
         border-bottom: 50px solid transparent;
         margin-top: -83px;
         margin-left: 30px;
-        z-index: 1;
+        z-index: 3;
     }
     
     .section6 .card:hover .circle {
@@ -452,11 +454,11 @@
         border-bottom: 50px solid transparent;
         transform: all;
         transition: 1s;
-        z-index: 1
+        z-index: 3
     }
     
     .section6 .card:hover .circle {
-        border: 1px solid;
+        border: 1px solid white;
         z-index: 5
     }
     
@@ -491,12 +493,19 @@
         margin-top: 150px;
     }
     
-    .footer .div1,
     .footer .div2,
     .footer .div3 {
         width: 100px;
         height: 100px;
         border-radius: 50%;
+    }
+    
+    .footer .firstdiv {
+        margin-left: -90px;
+    }
+    
+    .footer .lestdiv {
+        margin-right: -100px;
     }
     
     .footer {
@@ -518,8 +527,8 @@
         margin-top: 25px;
     }
     
-    .footer .lestdiv {
-        margin-right: -120px;
+    .footer .div1 {
+        margin-left: -500px;
     }
     
     .footer .d-flex {
